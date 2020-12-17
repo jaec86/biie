@@ -1,0 +1,21 @@
+.btn {
+  @apply inline-block
+  px-8
+  py-3
+  rounded
+  bg-purple-500
+  font-bold
+  text-sm
+  text-white
+  uppercase
+  tracking-wider
+  outline-none
+  transition-all
+  duration-500;
+}
+
+.btn:hover,
+.btn:focus {
+  @apply bg-purple-600
+  outline-none;
+}

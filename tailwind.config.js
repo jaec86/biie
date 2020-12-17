@@ -7,7 +7,13 @@ module.exports = {
   theme: {
     fontFamily: {
       body: ['Montserrat', 'sans-serif'],
-    }
+    },
+    inset: {
+      '0': '0',
+      auto: 'auto',
+      '1/2': '50%',
+      full: '100%',
+    },
   },
   variants: {
     extend: {},

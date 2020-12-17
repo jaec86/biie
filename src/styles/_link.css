@@ -1,0 +1,11 @@
+.link {
+  @apply text-purple-500
+  underline
+  transition-all
+  duration-500;
+}
+
+.link:hover,
+.link:focus {
+  @apply text-purple-600;
+}
