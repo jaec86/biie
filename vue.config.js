@@ -10,5 +10,5 @@ module.exports = {
       }
     }
   },
-  publicPath: process.env.NODE_ENV === 'production' ? '/poc-pichincha' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/biie' : '/',
 };
