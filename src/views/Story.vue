@@ -43,9 +43,9 @@ export default {
   data() {
     return {
       storyOptions: [
-        { label: 'Endurance', value: 'endurance' },
-        { label: 'Relax', value: 'relax' },
-        { label: 'Speed', value: 'speed' },
+        { label: 'Zombie', value: 'zombie' },
+        { label: 'Rocky', value: 'rocky' },
+        { label: 'Mission Impossoble', value: 'mission_impossible' },
       ],
       story: null,
       story_required: false,

@@ -70,7 +70,7 @@ export default {
     onFinish() {
       this.$store.commit('setTime', null);
       this.$store.commit('setDistance', null);
-      this.$store.commit('setTraining', null);
+      this.$store.commit('setMode', null);
       this.$store.commit('setStory', null);
       this.$router.push({ name: 'Home' });
     },
