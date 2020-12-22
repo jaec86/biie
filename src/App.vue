@@ -16,7 +16,6 @@ export default {
   },
   watch: {
     $route(to, from) {
-      console.log('hola');
       if (to.meta.order > from.meta.order) {
         this.enterClass = 'translate-x-full opacity-0';
         this.leaveToClass = '-translate-x-full opacity-0';

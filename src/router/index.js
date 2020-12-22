@@ -11,22 +11,28 @@ const routes = [
     component: () => import('@/views/Home'),
   },
   {
-    path: '/training',
-    name: 'Training',
+    path: '/mode',
+    name: 'Mode',
     meta: { order: 2 },
-    component: () => import('@/views/Training'),
-  },
-  {
-    path: '/story',
-    name: 'Story',
-    meta: { order: 3 },
-    component: () => import('@/views/Story'),
+    component: () => import('@/views/Mode'),
   },
   {
     path: '/details',
     name: 'Details',
-    meta: { order: 4 },
+    meta: { order: 3 },
     component: () => import('@/views/Details'),
+  },
+  {
+    path: '/story',
+    name: 'Story',
+    meta: { order: 4 },
+    component: () => import('@/views/Story'),
+  },
+  {
+    path: '/training',
+    name: 'Training',
+    meta: { order: 5 },
+    component: () => import('@/views/Training'),
   },
 ];
 
